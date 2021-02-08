@@ -1,7 +1,13 @@
-import React, { Fragment } from "react";
+import "./MovieAdd.scss";
+import React from "react";
+import MovieEditForm from "../../Shared/Components/MovieEditForm";
 
 const MovieAdd = () => {
-  return <Fragment>MovieAdd</Fragment>;
+  return (
+    <div className="movie__add mx-auto mt-5">
+      <MovieEditForm isAddNewForm={true} />
+    </div>
+  );
 };
 
 export default MovieAdd;

@@ -1,6 +1,20 @@
 .movie__single {
-  max-width: 900px;
-  padding-top: 60px;
+  padding-top: 30px;
+  background: #33333396;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+
+  a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
 
   .img__wrapper {
     max-height: 650px;
@@ -8,7 +22,6 @@
 
     img {
       width: 100%;
-      min-height: 450px;
     }
   }
 
@@ -17,6 +30,7 @@
       font-size: 2rem;
     }
     .rating {
+      color: #ffd518;
       .rating__nb {
         font-size: 3rem;
       }
@@ -30,9 +44,9 @@
   }
 
   .info {
-    max-width: 850px;
+    max-width: 680px;
     font-weight: 400;
-    color: rgb(231, 231, 231);
+    color: rgb(235, 235, 235);
   }
 
   .genre,
@@ -46,10 +60,32 @@
       font-size: 1.3rem;
     }
   }
+  .rated {
+    span {
+      color: #e50914;
+    }
+  }
 
   #deleteButton,
   #editButton {
     height: 45px;
     width: 120px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .movie__single {
+    max-width: 900px;
+    padding-top: 30px;
+
+    .img__wrapper {
+      max-height: 650px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        min-height: 450px;
+      }
+    }
   }
 }

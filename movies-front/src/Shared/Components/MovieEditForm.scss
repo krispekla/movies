@@ -1,0 +1,18 @@
+.movie__form__edit {
+  background: #1d1d1d;
+  border-radius: 4px;
+
+  .rated {
+    .radio-group {
+    }
+  }
+
+  #cancelBtn,
+  #updateBtn {
+    height: 40px;
+    width: 140px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
