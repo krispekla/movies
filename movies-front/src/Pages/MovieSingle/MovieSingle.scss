@@ -1,0 +1,55 @@
+.movie__single {
+  max-width: 900px;
+  padding-top: 60px;
+
+  .img__wrapper {
+    max-height: 650px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      min-height: 450px;
+    }
+  }
+
+  .title {
+    h3 {
+      font-size: 2rem;
+    }
+    .rating {
+      .rating__nb {
+        font-size: 3rem;
+      }
+
+      h6 {
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+  }
+
+  .info {
+    max-width: 850px;
+    font-weight: 400;
+    color: rgb(231, 231, 231);
+  }
+
+  .genre,
+  .rated {
+    h4 {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    span {
+      font-size: 1.3rem;
+    }
+  }
+
+  #deleteButton,
+  #editButton {
+    height: 45px;
+    width: 120px;
+  }
+}

@@ -1,0 +1,56 @@
+.home {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 300px auto;
+  grid-template-areas: "home-header" "home-movie__list";
+
+  .home__header {
+    grid-area: home-header;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    #addBtn {
+      width: 192px;
+      height: 45px;
+      position: absolute;
+      bottom: 3%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .home__movie__list {
+    grid-area: home-movie__list;
+    padding-top: 40px;
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .home {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 460px auto;
+    grid-template-areas: "home-header" "home-movie__list";
+
+    .home__header {
+      #addBtn {
+        bottom: 3%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  .home {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 620px auto;
+    grid-template-areas: "home-header" "home-movie__list";
+    overflow: hidden;
+  }
+}
