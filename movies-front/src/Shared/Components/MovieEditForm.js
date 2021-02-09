@@ -29,7 +29,6 @@ function MovieEditForm(props) {
   const history = useHistory();
 
   const onSubmit = (data) => {
-    console.log(data);
     if (props.isAddNewForm) {
       addNewMovie({ ...data, rating: rating });
     } else {
