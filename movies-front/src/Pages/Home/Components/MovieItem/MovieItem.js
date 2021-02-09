@@ -10,7 +10,7 @@ const MovieItem = (props) => {
   }
 
   return (
-    <div onClick={onItemClick} className="movie__item__wrapper shadow">
+    <div onClick={onItemClick} className="movie__item__wrapper shadow fade-in">
       {props.movie.img ? (
         <img src={props.movie.img} alt="lorem ipsum" />
       ) : (
