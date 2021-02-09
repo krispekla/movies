@@ -1,6 +1,6 @@
 # Netlifx clone
 
-This project is simple netflix clone using express and react.
+This project is simple netflix clone that demonstrates CRUD using express and react.
 
 ## Setup
 
@@ -18,8 +18,8 @@ This project is simple netflix clone using express and react.
 
 5. Create empty **.env** file in **movies-api** root directory and copy below environment variables. Current app uses Postgresql so enter your own db connection.
 
-   > NODE_ENV=development
-   > PORT=3006
+   > NODE_ENV=development<br />
+   > PORT=3006<br />
    > DB\_\_CONNECTION=your_connection
 
    Connection format: postgresql://**username**:**password**@localhost:5432/**db_name**
