@@ -1,6 +1,7 @@
 .movie__form__edit {
   background: #1d1d1d;
   border-radius: 4px;
+  transition: height 500ms ease-in-out;
 
   .rated {
     .radio-group {

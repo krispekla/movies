@@ -1,6 +1,7 @@
-import "bootstrap/dist/css/bootstrap-grid.css";
+import "bootstrap/dist/css/bootstrap.css";
 import "./index.scss";
 import "swiper/swiper.scss";
+import "react-notifications/lib/notifications.css";
 
 import React from "react";
 import ReactDOM from "react-dom";

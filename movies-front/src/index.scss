@@ -44,6 +44,11 @@ h3 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.btn-primary:hover,
+.btn-primary:active {
+  background: rgb(197, 197, 197);
+  color: #161616;
+}
 
 .btn-danger {
   border-radius: 4px;

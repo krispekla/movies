@@ -5,15 +5,17 @@ import Home from "./Pages/Home/Home";
 import MovieSingle from "./Pages/MovieSingle/MovieSingle";
 import MovieAdd from "./Pages/MovieAdd/MovieAdd";
 import NotFound from "./Pages/NotFound";
+import { NotificationContainer } from "react-notifications";
 
 function App() {
   return (
     <Fragment>
       <DefaultLayout>
+        <NotificationContainer />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/movie/add" component={MovieAdd} />
-          <Route path="/movie/edit/:title" component={MovieSingle} />
+          <Route path="/movie/edit/:id" component={MovieSingle} />
           <Route path="*" component={NotFound} />
         </Switch>
       </DefaultLayout>

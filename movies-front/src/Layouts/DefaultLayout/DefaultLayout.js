@@ -7,7 +7,7 @@ const DefaultLayout = (props) => {
   return (
     <div className="default__layout">
       <Header />
-      <div className="default__layout-content">{props.children}</div>
+      <div className="default__layout-content fade-in">{props.children}</div>
       <Footer />
     </div>
   );
