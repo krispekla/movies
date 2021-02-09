@@ -43,5 +43,12 @@ This project is simple netflix clone using express and react.
    `˙cd movies-front`
 3. Install node packages.
    `npm i`
-4. Run frontend
+
+4. Create empty **.env** file in **movies-front** root directory and copy below environment variable with where api url points to backend service.
+
+   > REACT_APP_API_URL=**api_url**
+
+   **Example:** _REACT_APP_API_URL=http://localhost:3006/api/_
+
+5. Run frontend
    `npm start`
